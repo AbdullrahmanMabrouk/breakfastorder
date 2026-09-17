@@ -1,8 +1,8 @@
 // 1) Create a free Supabase project.
 // 2) Run supabase.sql in Supabase > SQL Editor.
 // 3) Paste your project URL and anon key below.
-const SUPABASE_URL = 'PASTE_YOUR_SUPABASE_URL_HERE';
-const SUPABASE_ANON_KEY = 'PASTE_YOUR_SUPABASE_ANON_KEY_HERE';
+const SUPABASE_URL = 'https://bcpkxkhlbhnuoztuleex.supabase.co/rest/v1/';
+const SUPABASE_ANON_KEY = 'sb_publishable_W70beGLLiQsXpktjjMjQuQ_uo-lS1vo';
 
 const isConfigured = !SUPABASE_URL.includes('PASTE_') && !SUPABASE_ANON_KEY.includes('PASTE_');
 const supabaseClient = isConfigured ? window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY) : null;
